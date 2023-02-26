@@ -1,0 +1,28 @@
+-- Task for the week
+-- 1) Create a project for quiz app.
+-- 2) Insert 2 customer in Customers table. Insert 3 products in Products table
+-- 3) Insert 1 customer to 2 product in SLI, Insert 2 customer to 3 products in SLI.
+-- 4) Select Name of Customer -> Name of Product.
+
+--DELETE FROM Customers WHERE id=2;
+--UPDATE Customers Set firstname='Ali' WHERE id=2;
+--INSERT INTO Customers VALUES (2, 'Naeem');
+--SELECT * FROM Customers;
+--CREATE TABLE SaleLineItem (
+--    ID int NOT NULL,
+--    CustomerID int Not NULL,
+--  	ProductID int Not NULL,
+--    PRIMARY KEY (ID),
+--    FOREIGN KEY (CustomerID) REFERENCES Customers(ID),
+--  	FOREIGN KEY (ProductID) REFERENCES Products(ID)
+--);
+--CREATE TABLE Products (
+--    ID int NOT NULL,
+--    Name varchar(255) NOT NULL,
+--    PRIMARY KEY (ID)
+--);
+--CREATE TABLE Customers (
+--    ID int NOT NULL,
+--    FirstName varchar(255) NOT NULL,
+--    PRIMARY KEY (ID)
+--);
